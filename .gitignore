@@ -1,9 +1,16 @@
-node_modules/
-.vscode
-package-lock.json
-.cache/
-public/static
-*.marko.js
+# Environment variables
+.env
 .env.example
-.logs/*.log
-dist/
+!.env.example
+
+# Dependencies
+/node_modules
+
+# TypeScript build output
+/dist
+
+# OS generated files
+.DS_Store
+
+# Test coverage
+/coverage

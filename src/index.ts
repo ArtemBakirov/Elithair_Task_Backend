@@ -1,67 +1,11 @@
-/**
- * Bootstrap your App
- *
- * @author Faiz A. Farooqui <faiz@geekyants.com>
- */
+import { middleware } from "#middlewares/middlewares.js";
+import express from "express";
 
-import * as os from 'os';
-import * as cluster from 'cluster';
+const app = express();
+const port = process.env.PORT ?? "9001";
 
-import App from './providers/App';
-import NativeEvent from './exception/NativeEvent';
+app.get("/", middleware);
 
-if (cluster.isMaster) {
-	/**
-	 * Catches the process events
-	 */
-	NativeEvent.process();
-
-	/**
-	 * Clear the console before the app runs
-	 */
-	App.clearConsole();
-
-	/**
-	 * Load Configuration
-	 */
-	App.loadConfiguration();
-
-	/**
-	 * Find the number of available CPUS
-	 */
-	const CPUS: any = os.cpus();
-
-	/**
-	 * Fork the process, the number of times we have CPUs available
-	 */
-	CPUS.forEach(() => cluster.fork());
-
-	/**
-	 * Catches the cluster events
-	 */
-	NativeEvent.cluster(cluster);
-
-	/**
-	 * Loads the Queue Monitor iff enabled
-	 */
-	App.loadQueue();
-
-	/**
-	 * Run the Worker every minute
-	 * Note: we normally start worker after
-	 * the entire app is loaded
-	 */
-	setTimeout(() => App.loadWorker(), 1000 * 60);
-
-} else {
-
-	/**
-	 * Run the Database pool
-	 */
-	App.loadDatabase();
-
-	/**
-	 * Run the Server on Clusters
-	 */
-	App.loadServer();
-}
+app.listen(port, () => {
+  console.log(`Example app listening on port ${port}`);
+});

@@ -5,119 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f2407e1-43e4-4a00-a980-2fa62ab5fb70" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.github/workflows/ci.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.husky/pre-commit" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.nvmrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.prettierignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eslint.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/__tests__/sum.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/middlewares/middlewares.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/sum.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsconfig.build.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vitest.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/bug_report.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/custom.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/feature_request.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.logs/2018-9-20.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CODE_OF_CONDUCT.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CONTRIBUTING.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PULL_REQUEST_TEMPLATE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ROADMAP.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SECURITY.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/local.Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nodemon.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/express-typescript.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/portfolio/cabin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/portfolio/cake.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/portfolio/circus.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/portfolio/game.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/portfolio/safe.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/portfolio/submarine.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/profile.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screens/Dashboard.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screens/DashboardWithDropdown.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screens/Home.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screens/Login.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screens/PageNotFound.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screens/SignUp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screens/UnderMaintenance.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controllers/Account.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controllers/Api/Auth/Login.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controllers/Api/Auth/RefreshToken.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controllers/Api/Auth/Register.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controllers/Api/Home.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controllers/Auth/Login.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controllers/Auth/Logout.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controllers/Auth/Register.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controllers/Auth/Social.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controllers/Home.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exception/Handler.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exception/NativeEvent.ts" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controllers/Reservation.Controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controllers/Slot.Controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/slotModel.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/Slot.routes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/__tests__/sum.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/__tests__/sum.spec.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/models/user.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/vendors/INext.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/vendors/IRequest.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/vendors/IResponse.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/vendors/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/middlewares/CORS.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/middlewares/CsrfToken.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/middlewares/Http.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/middlewares/Kernel.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/middlewares/Log.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/middlewares/Statics.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/middlewares/StatusMonitor.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/middlewares/Views.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/User.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/providers/App.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/providers/Cache.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/providers/Database.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/providers/Express.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/providers/Locals.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/providers/Passport.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/providers/Queue.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/providers/Routes.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/Api.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/Web.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/strategies/Google.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/strategies/Local.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/strategies/Twitter.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tslint.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/includes/footer.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/includes/navbar.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/layout.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/modals/portfolio.modal-1.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/modals/portfolio.modal-2.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/modals/portfolio.modal-3.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/modals/portfolio.modal-4.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/modals/portfolio.modal-5.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/modals/portfolio.modal-6.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/pages/dashboard.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/pages/error.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/pages/home.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/pages/login.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/pages/signup.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/partials/about.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/partials/contact.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/partials/flash.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/partials/portfolio.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/partials/socials.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/partials/update-password.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/partials/update-profile.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/static/css/custom.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/static/js/custom.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,32 +21,32 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2vap55vUFrMq7iW9OEAZTgm5TGL" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "com.codeium.enabled": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "F:/new work from 2025 70/TestWork2/back",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "prettier.import.notification.dismissed": "true",
-    "ts.external.directory.path": "F:\\new work from 2025 70\\TestWork2\\back\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;com.codeium.enabled&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/new work from 2025 70/TestWork2/back&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettier.import.notification.dismissed&quot;: &quot;true&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;F:\\new work from 2025 70\\TestWork2\\back\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\new work from 2025 70\TestWork2\back" />
@@ -173,7 +67,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1744392853144</updated>
-      <workItem from="1744392854336" duration="1108000" />
+      <workItem from="1744392854336" duration="13748000" />
     </task>
     <servers />
   </component>

@@ -24,7 +24,7 @@ export const reserveSlot = async (req: Request, res: Response): Promise<void | R
 			}
 		}
 
-		slot.bookings.push({ name, email } as IBooking);
+		// slot.bookings.push({ name, email } as IBooking);
 		await slot.save();
 
 		const updatedSlots = await Slot.find();

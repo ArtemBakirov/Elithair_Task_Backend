@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f2407e1-43e4-4a00-a980-2fa62ab5fb70" name="Changes" comment="backend ready">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/deploy.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controllers/Reservation.Controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/Reservation.Controller.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/slotModel.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/slotModel.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/Slot.routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Slot.routes.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +15,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "ArtemBakirov"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/ArtemBakirov/Elithair_Task_Backend.git",
+    "accountId": "fb127589-f6fb-424e-b1c5-760acf19b269"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 3
@@ -68,7 +74,7 @@
       <option name="presentableId" value="Default" />
       <updated>1744392853144</updated>
       <workItem from="1744392854336" duration="18458000" />
-      <workItem from="1744475477986" duration="5137000" />
+      <workItem from="1744475477986" duration="5770000" />
     </task>
     <task id="LOCAL-00001" summary="backend ready">
       <option name="closed" value="true" />

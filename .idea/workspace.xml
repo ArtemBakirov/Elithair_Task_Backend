@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f2407e1-43e4-4a00-a980-2fa62ab5fb70" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/controllers/Reservation.Controller.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controllers/Slot.Controller.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/slotModel.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/Slot.routes.ts" afterDir="false" />
+    <list default="true" id="1f2407e1-43e4-4a00-a980-2fa62ab5fb70" name="Changes" comment="backend ready">
+      <change afterPath="$PROJECT_DIR$/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitlab-ci.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/ci.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.husky/pre-commit" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/__tests__/sum.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/__tests__/sum.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,11 +67,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1744392853144</updated>
-      <workItem from="1744392854336" duration="13748000" />
+      <workItem from="1744392854336" duration="16015000" />
     </task>
+    <task id="LOCAL-00001" summary="backend ready">
+      <option name="closed" value="true" />
+      <created>1744461090768</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1744461090768</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="backend ready" />
+    <option name="LAST_COMMIT_MESSAGE" value="backend ready" />
   </component>
 </project>

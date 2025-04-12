@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  backend:
+    build: .
+    environment:
+      - MONGODB_URI=${MONGODB_URI}
+      - PORT=3001
+    ports:
+      - "3001:3001"
+    restart: unless-stopped

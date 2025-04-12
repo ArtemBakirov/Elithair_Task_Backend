@@ -1,7 +1,7 @@
-import { Request, Response } from 'express';
+import {Request, RequestHandler, Response} from 'express';
 import {IBooking, Slot} from '../models/slotModel.js';
 
-export const reserveSlot = async (req: Request, res: Response): Promise<void | Response> => {
+export const reserveSlot: RequestHandler = async (req: Request, res: Response) => {
 	console.log("got to reserve");
 	try {
 		const { name, email, slotId } = req.body;

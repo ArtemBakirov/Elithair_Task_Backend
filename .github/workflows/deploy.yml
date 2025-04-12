@@ -1,0 +1,31 @@
+name: Deploy Backend to Railway
+
+on:
+  push:
+    branches: [main]
+
+env:
+  RAILWAY_PROJECT_ID: ${{ secrets.RAILWAY_PROJECT_ID }}
+  RAILWAY_TOKEN: ${{ secrets.RAILWAY_TOKEN }}
+  MONGO_URI: ${{ secrets.MONGO_URI }}
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Install Railway CLI
+        run: |
+          curl -fsSL https://cli.railway.app/install.sh | sh
+          echo "$HOME/.railway/bin" >> $GITHUB_PATH
+
+      - name: Login to Railway
+        run: railway login --ci
+
+      - name: Link to Railway Project
+        run: railway link $RAILWAY_PROJECT_ID
+
+      - name: Deploy to Railway
+        run: railway up --service backend --detach

@@ -29,6 +29,7 @@ mongoose.connect(MONGO_URI)
     });
 
 app.use('/api', router);
+app.use(cors());
 
 const port = process.env.PORT ?? "9001";
 app.listen(port, () => {

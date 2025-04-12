@@ -1,6 +1,6 @@
 import mongoose, { Document, Schema } from 'mongoose';
 
-interface IBooking {
+export interface IBooking {
 	name: string;
 	email: string;
 	bookedAt: Date;

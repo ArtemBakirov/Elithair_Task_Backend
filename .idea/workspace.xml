@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1f2407e1-43e4-4a00-a980-2fa62ab5fb70" name="Changes" comment="backend ready">
       <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +74,7 @@
       <option name="presentableId" value="Default" />
       <updated>1744392853144</updated>
       <workItem from="1744392854336" duration="18458000" />
-      <workItem from="1744475477986" duration="6158000" />
+      <workItem from="1744475477986" duration="6883000" />
     </task>
     <task id="LOCAL-00001" summary="backend ready">
       <option name="closed" value="true" />

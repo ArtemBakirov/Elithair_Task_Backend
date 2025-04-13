@@ -70,22 +70,9 @@ export const initializeSlots = async () => {
 				}
 			}
 
-
-
-
 			await Slot.insertMany(slots);
-			console.log('Initialized time slots');
 		}
 	} catch (error) {
 		console.error('Error initializing slots:', error);
-	}
-};
-
-export const deleteAllSlots = async () => {
-	try {
-		await Slot.deleteMany({}); // Delete all slots
-		console.log('Deleted all time slots');
-	} catch (error) {
-		console.error('Error deleting slots:', error);
 	}
 };

@@ -15,8 +15,7 @@ app.use(cors());
 app.use(express.json());
 
 
-const MONGO_URI = process.env.MONGO_URI || 'mongodb://localhost:27017/meeting-slots';
-console.log("URI is", MONGO_URI);
+const MONGO_URI = process.env.MONGO_URI as string;
 
 mongoose.connect(MONGO_URI)
     .then(() => {
@@ -30,7 +29,7 @@ mongoose.connect(MONGO_URI)
 app.use('/api', router);
 app.use(cors());
 
-const port = process.env.PORT ?? "9001";
+const port = process.env.PORT ?? "3001";
 app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`);
+  console.log(`App is listening on port ${port}`);
 });
